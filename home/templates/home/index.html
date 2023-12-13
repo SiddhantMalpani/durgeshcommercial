@@ -1,13 +1,13 @@
 {% extends "base.html"%}
 {% block start %}
-<head><link rel="stylesheet" href="/static/cssfiles/index.css   "></head>
+<head><link rel="stylesheet" href="/static/cssfiles/index.css">
 <div class="container col-xxl-8 px-4 py-5 " style="background-color: rgb(227, 225, 225);width: 100%;">
     <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
       <div class="col-10 col-sm-8 col-lg-6">
-        <img src="/static/images/starter.png" class="d-block mx-lg-auto img-fluid" alt="Visual" width="700" height="500" loading="lazy">
+        <img src="/static/images/starter.png" class="d-block mx-lg-auto img-fluid" alt="Visual" loading="lazy">
       </div>
       <div class="col-lg-6">
-        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Durgesh Commercial and Marketing Pvt Ltd - Your Partner in Quality Hotel Supplies</h1>
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Durgesh Commercial and Marketing Pvt Ltd - <span style="font-weight: normal;font-family:'Cedarville Cursive', cursive;">Your Partner in Quality Hotel Supplies</span></h1>
         <p class="lead">At Durgesh Commercial and Marketing Pvt Ltd, we offer a wide range of high-quality hotel supplies to meet the unique needs of the hospitality industry. From paper products to guest amenities and toiletry kits, we are your one-stop-shop for all your hotel supply needs.</p>
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
           <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" style="background-color: #673657;">View our Products</button>
@@ -54,5 +54,65 @@
     </div>
   </div>
   <hr class="hr-text" data-content="Features and Benefits">
+  <div class="container px-4 py-5" id="icon-grid">
+    <h2 class="pb-2 text-center text-uppercase texty" style="font-family: 'Dancing Script', cursive;">Features</h2>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><img src="/static/svgfiles/paperproducts.svg" alt="" width="50" height="50"></svg>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Wide Range of Paper Products</h3>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><img src="/static/svgfiles/highquality.svg" alt="" width="50" height="50"></svg>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">High-Quality Guest Amenities</h3>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><img src="/static/svgfiles/customizable.svg" alt="" width="50" height="50"></svg>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Customizable Toiletries Kits</h3>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><img src="/static/svgfiles/timedelivery.svg" alt="" width="50" height="50"></svg>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Reliable and Timely Delivery</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container px-4 py-5" id="icon-grid">
+    <h2 class="pb-2 text-uppercase text-center" style="font-family: 'Dancing Script', cursive;">Benefits</h2>
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><img src="/static/svgfiles/enhancedguestexp.svg" alt="" width="50" height="50"></svg>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Enhanced Guest Experience</h3>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><img src="/static/svgfiles/guestsatisfaction.svg" alt="" width="50" height="50"></svg>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Increased Guest Satisfaction</h3>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><img src="/static/svgfiles/costeffective.svg" alt="" width="50" height="50"></svg>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+            Cost-Effective Solutions</h3>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><img src="/static/svgfiles/efficientoperations.svg" alt="" width="50" height="50"></svg>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Efficient Operations</h3>
+        </div>
+      </div>
+    </div>
+  </div>
   
 {% endblock %}
