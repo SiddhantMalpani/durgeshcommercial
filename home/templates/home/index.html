@@ -1,0 +1,58 @@
+{% extends "base.html"%}
+{% block start %}
+<head><link rel="stylesheet" href="/static/cssfiles/index.css   "></head>
+<div class="container col-xxl-8 px-4 py-5 " style="background-color: rgb(227, 225, 225);width: 100%;">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="/static/images/starter.png" class="d-block mx-lg-auto img-fluid" alt="Visual" width="700" height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Durgesh Commercial and Marketing Pvt Ltd - Your Partner in Quality Hotel Supplies</h1>
+        <p class="lead">At Durgesh Commercial and Marketing Pvt Ltd, we offer a wide range of high-quality hotel supplies to meet the unique needs of the hospitality industry. From paper products to guest amenities and toiletry kits, we are your one-stop-shop for all your hotel supply needs.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" style="background-color: #673657;">View our Products</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container px-4 py-5" id="featured-3" style="width: 85%;">
+    <h2 class="pb-2" style="font-family: 'Roboto Slab', serif;font-weight: 700;font-size: 50px;">Our Products</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img src="/static/images/paper.png" class="img-thumbnail" alt="Paper Products">
+        </div>
+        <h3 class="fs-2 text-body-emphasis" style="font-family: 'Roboto Slab';">Paper Products</h3>
+        <p>We offer a range of high-quality paper products, including napkins, tissues, and toilet rolls, to meet the diverse needs of hotels and the hospitality industry.</p>
+        <a href="#" class="icon-link text-muted text-decoration-none">
+          Read More
+          <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+        </a>
+      </div>
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img src="/static/images/toileteries.png" class="img-thumbnail" alt="Toiletries Kits">
+        </div>
+        <h3 class="fs-2 text-body-emphasis" style="font-family: 'Roboto Slab';">Toiletries Kits</h3>
+        <p>Our range of toiletries kits includes high-quality essentials such as shampoo, conditioner, body wash, lotion, and soap, and can be customized to cater to specific…</p>
+        <a href="#" class="icon-link text-muted text-decoration-none">
+            Read More
+          <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+        </a>
+      </div>
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img src="/static/images/guest.png" class="img-thumbnail" alt="Guest Amenities">
+        </div>
+        <h3 class="fs-2 text-body-emphasis" style="font-family: 'Roboto Slab';">Guest Amenities</h3>
+        <p>We provide a range of premium quality guest amenities, including dental kits, vanity kits, and shaving kits, to enhance the comfort and satisfaction of your…</p>
+        <a href="#" class="icon-link text-muted text-decoration-none">
+        Read More
+          <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+  <hr class="hr-text" data-content="Features and Benefits">
+  
+{% endblock %}
